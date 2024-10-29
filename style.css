@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000; 
+}
+  
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 4em; 
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8),
+                 0 0 20px rgba(255, 215, 0, 0.6),
+                 0 0 30px rgba(255, 215, 0, 0.4);
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 4em; 
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8),
+                 0 0 20px rgba(255, 215, 0, 0.6),
+                 0 0 30px rgba(255, 215, 0, 0.4);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #FFA500;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em; 
+    text-shadow: 0 0 10px rgba(255, 165, 0, 0.6),
+                 0 0 20px rgba(255, 165, 0, 0.4);
+}
+  
+#fireworkCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
