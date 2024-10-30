@@ -16,8 +16,8 @@ body, html {
 
 h1 {
     position: absolute;
-    top: 50%;
-    left: 50%; 
+    top: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: #FFD700;
@@ -28,25 +28,9 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: #FFD700;
-    font-size: 4em;
-    text-shadow: 0 0 10px rgba(255, 215, 0, 0.8),
-                 0 0 20px rgba(255, 215, 0, 0.6),
-                 0 0 30px rgba(255, 215, 0, 0.4);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 p {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -57,28 +41,16 @@ p {
 }
 
 @media (max-width: 1024px) {
-    h1, h2 {
-        font-size: 3em;
-    }
-    p {
-        font-size: 1.2em;
-    }
+    h1 { font-size: 3em; top: 35%; }
+    p { font-size: 1.2em; }
 }
 
 @media (max-width: 768px) {
-    h1, h2 {
-        font-size: 2.5em;
-    }
-    p {
-        font-size: 1em;
-    }
+    h1 { font-size: 2.5em; top: 30%; }
+    p { font-size: 1em; }
 }
 
 @media (max-width: 480px) {
-    h1, h2 {
-        font-size: 2em;
-    }
-    p {
-        font-size: 0.8em;
-    }
+    h1 { font-size: 2em; top: 25%; }
+    p { font-size: 0.8em; }
 }
