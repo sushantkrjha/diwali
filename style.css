@@ -28,21 +28,12 @@ h1 {
     text-align: center;
 }
 
-p {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: #FFA500;
-    font-size: 1.5em;
-    text-shadow: 0 0 10px rgba(255, 165, 0, 0.6),
-                 0 0 20px rgba(255, 165, 0, 0.4);
-}
+
+
 
 @media (max-width: 1024px) {
     h1 { font-size: 3em; top: 35%; }
-    p { font-size: 1.2em; }
+   
 }
 
 @media (max-width: 768px) {
@@ -52,5 +43,4 @@ p {
 
 @media (max-width: 480px) {
     h1 { font-size: 2em; top: 25%; }
-    p { font-size: 0.8em; }
 }
